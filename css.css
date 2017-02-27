@@ -1,0 +1,162 @@
+html{
+    font-size:62.5%;
+}
+body, p, ul, li, ol{
+    margin:0;
+    padding:0;
+}
+ul, li, ol {
+    list-style: none;
+}
+
+header,footer{
+    position:fixed;
+    padding:0.7rem 1rem;
+    line-height: 3.2rem;
+    font-size:1.4rem;
+}
+header{
+    background: #5fc0cd;;
+    color:#ffffff;
+    left:0;
+    top:0;
+    right:0;
+    height:3.2rem;
+}
+header a{
+    color:#ffffff;
+    text-decoration: none;
+    cursor:pointer;
+    font-size:1.4rem;
+}
+.pull-left{
+    float:left;
+}
+header h2{
+    color:#ffffff;
+    text-align: center;
+    font-size: 1.6rem;
+    margin:0 4em;
+    padding:0;
+}
+main{
+    position:absolute;
+    top:4.6rem;
+    bottom:6.5rem;
+    left:0;
+    right:0;
+    overflow-y:auto;
+    overflow-x:hidden;
+    -webkit-overflow-scrolling:touch;
+    background: #ffffff;
+}
+main .content{
+    height:auto;
+    font-size:1.2rem;
+}
+.user-section{
+    position:relative;
+    height:15rem;
+    width:100%;
+    background: url('img/bg.jpg') no-repeat center;
+    color:#ffffff;
+    background-size:cover;
+}
+.user-thumb{
+    width:7.4rem;
+    height:7.4rem;
+    border-radius:50%;
+    overflow:hidden;
+    background: #ffffff;
+    position:absolute;
+    left:2rem;
+    top:50%;
+    margin-top:-3.7rem;
+}
+.user-thumb img{
+    width:100%;
+}
+.user-info{
+    position:relative;
+    margin-left:12rem;
+    top:50%;
+    transform:translateY(-50%);
+}
+.user-name{
+    font-size:1.2em;
+}
+.user-pos{
+    margin-top:0.5rem;
+    background: url('img/pos.png') no-repeat left center;
+    background-size:1.2rem;
+    padding:0 0 0 2rem;
+}
+.user-form-title{
+    margin: 0 1rem;
+    padding:0 1rem;
+    height:5rem;
+    line-height:5rem;
+    border-bottom:1px solid #ccc;
+}
+.user-form-title span{
+    padding-left:0.5rem;
+    border-left:3px solid #ccc;
+}
+.user-form-list{
+    padding:0 1rem;
+
+}
+.user-form-list li{
+    position: relative;
+    padding:1.5rem 1rem;
+    min-height: 2rem;
+    line-height:2rem;
+    border-bottom:1px solid #ccc;
+    overflow:auto;
+}
+
+.user-form-tag{
+    display: inline-block;
+    padding:0 1rem 0 1.5rem;
+    background:url('img/star.png') no-repeat left center;
+    background-size:1.2rem;
+}
+.user-form-label{
+    color:#aaa;
+    border-right:1px solid #ccc;
+    position:absolute;
+    width:5em;
+    top:50%;
+    transform: translateY(-50%);
+}
+.user-form-item{
+    margin-left:6rem;
+}
+footer{
+    display: flex;
+    padding:1rem;
+    left:0;
+    right:0;
+    bottom:0;
+    height:4.5rem;
+}
+.btn{
+    border:none;
+    cursor:pointer;
+    outline:none;
+    background:#5fc0cd;
+    color:#fff;
+    font-size:1.6rem;
+    border-radius:5px;
+}
+.footer-btn-message{
+    margin-right:1rem;
+    background:#fff;
+    color:#5fc0cd;
+    box-shadow:inset 0 0 0 2px #5fc0cd;
+}
+footer button{
+    flex:1;
+    height:4.5rem;
+    width:50%;
+}
